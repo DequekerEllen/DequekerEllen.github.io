@@ -3,6 +3,11 @@
   --global-page-background-color: linear-gradient(to bottom, #dbd3d8, #e4e0e2);
   --global-background-color: #223843;
   --global-text-color: rgba(255, 255, 255, 0.9);
+  --global-cloud-color: rgb(202, 202, 202);
+
+  /* Shadow */
+  --global-box-shadow-header: 3px 3px 5px 0px #1e2d35a4;
+  --global-bax-shadow-cloud: 0px 0px 30px 5px #1e2d3573;
 
   /* transitions */
   --global-hover-btn-color: #1e2d35;
@@ -54,7 +59,7 @@ html {
   color: var(--global-text-color);
   background: var(--global-background-color);
   border-radius: 0 0 30px 30px;
-  box-shadow: 3px 3px 5px 0px #1e2d35a4;
+  box-shadow: var(--global-box-shadow-header);
   height: 10%;
   margin: auto;
   padding: 25px;
@@ -134,8 +139,8 @@ html {
   width: 200px;
   height: 60px;
   top: 55px;
-  background: rgb(202, 202, 202);
-  box-shadow: 0px 0px 30px 5px #1e2d3573;
+  background:var(--global-cloud-color);
+  box-shadow: var(--global-bax-shadow-cloud);
   border-radius: 200px;
   position: relative;
 }
@@ -144,7 +149,7 @@ html {
 .cloud:after {
   content: '';
   position: absolute;
-  background: rgb(202, 202, 202);
+  background: var(--global-cloud-color);
   width: 100px;
   height: 80px;
   position: absolute;
