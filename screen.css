@@ -46,7 +46,7 @@ html {
 
 .header {
   width: 90%;
-  margin: 0;
+  margin: 0 auto;
   grid-area: header;
 }
 
@@ -139,7 +139,7 @@ html {
   width: 200px;
   height: 60px;
   top: 55px;
-  background:var(--global-cloud-color);
+  background: var(--global-cloud-color);
   box-shadow: var(--global-bax-shadow-cloud);
   border-radius: 200px;
   position: relative;
