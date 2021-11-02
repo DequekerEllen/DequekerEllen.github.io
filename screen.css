@@ -83,7 +83,6 @@ html {
 
 .controls {
   width: 90%;
-  height: 25%;
   margin-top: 40px;
   margin-bottom: 2px;
   margin: 0 auto;
@@ -240,5 +239,11 @@ html {
   }
   .temp {
     font-size: 20px;
+  }
+  .controls {
+    width: 90%;
+    height: 25%;
+    margin-top: 40px;
+    margin-bottom: 2px;
   }
 }
