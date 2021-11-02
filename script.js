@@ -127,6 +127,6 @@ function setup() {
 
 document.addEventListener('DOMContentLoaded', function () {
   console.log('**** Loaded ****');
-  // setup();
-  // click_btn();
+  setup();
+  click_btn();
 });
